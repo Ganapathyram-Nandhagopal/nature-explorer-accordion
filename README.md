@@ -2,7 +2,7 @@
 
 A modern and interactive nature-themed accordion gallery built using pure HTML, CSS, and JavaScript. Featuring smooth panel expansion animations, beautiful landscape imagery, ambient mode, responsive design, and an elegant user experience.
 
-![Preview](preview.png)
+<img width="1350" height="604" alt="image" src="https://github.com/user-attachments/assets/b951d23d-05b9-4fb0-bd0e-1f73380f7878" />
 
 ---
 
