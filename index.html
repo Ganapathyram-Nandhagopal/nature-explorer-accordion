@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-bar">
+  <div class="logo">🌿 Nature Explorer</div>
+
+  <div class="status">
+    <span class="status-led"></span>
+    <span id="statusName">Mountains</span>
+  </div>
+
+  <div class="actions">
+    <button data-action="toggle-ambient">Ambient</button>
+    <button data-action="shuffle">Shuffle</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Explore Nature's Beauty</h1>
+  <p id="modeText">Mode: Nature Day</p>
+</section>
+
+<div class="accordion" id="accordion">
+
+  <div class="panel active" data-title="Mountains" data-accent="#4CAF50">
+    <div class="panel-bg" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200');"></div>
+    <div class="panel-content">
+      <h2>Mountains</h2>
+      <p>Experience breathtaking mountain landscapes.</p>
+      <button class="cta">Explore</button>
+    </div>
+  </div>
+
+  <div class="panel" data-title="Forests" data-accent="#2E7D32">
+    <div class="panel-bg" style="background-image:url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200');"></div>
+    <div class="panel-content">
+      <h2>Forests</h2>
+      <p>Walk through lush green forests.</p>
+      <button class="cta">Explore</button>
+    </div>
+  </div>
+
+  <div class="panel" data-title="Waterfalls" data-accent="#03A9F4">
+    <div class="panel-bg" style="background-image:url('https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1200');"></div>
+    <div class="panel-content">
+      <h2>Waterfalls</h2>
+      <p>Enjoy the beauty of cascading waterfalls.</p>
+      <button class="cta">Explore</button>
+    </div>
+  </div>
+
+  <div class="panel" data-title="Lakes" data-accent="#00BCD4">
+    <div class="panel-bg" style="background-image:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200');"></div>
+    <div class="panel-content">
+      <h2>Lakes</h2>
+      <p>Discover peaceful lakes and reflections.</p>
+      <button class="cta">Explore</button>
+    </div>
+  </div>
+
+  <div class="panel" data-title="Wildlife" data-accent="#FF9800">
+    <div class="panel-bg" style="background-image:url('https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1200');"></div>
+    <div class="panel-content">
+      <h2>Wildlife</h2>
+      <p>Observe animals in their natural habitat.</p>
+      <button class="cta">Explore</button>
+    </div>
+  </div>
+
+</div>
+
+<div class="nav-wrap">
+  <button class="nav-prev">❮</button>
+  <button class="nav-next">❯</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
